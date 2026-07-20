@@ -6,7 +6,7 @@ from flask import Flask, request, render_template_string
 app = Flask(__name__)
 
 # The model file must be in the same directory as app.py
-MODEL_PATH = 'SVC_model.pkl'
+MODEL_PATH = 'SVC_model.PKL'
 
 model = None
 if os.path.exists(MODEL_PATH):
